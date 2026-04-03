@@ -90,7 +90,6 @@ public class C_HeapMax {
                 swap(i, maxIndex);
                 siftDown(maxIndex);
             }
-
             return i;
         }
 

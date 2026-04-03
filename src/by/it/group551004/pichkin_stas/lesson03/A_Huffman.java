@@ -142,7 +142,6 @@ public class A_Huffman {
             this.left = left;
             this.right = right;
         }
-
         @Override
         void fillCodes(String code) {
             left.fillCodes(code + "0");
